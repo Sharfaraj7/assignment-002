@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+}
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.logo{
+    width: 135px;
+    height:82px ;
+}
+#home{font-weight: bold;}
+.sa{color:rgba(137, 135, 161, 1) ;}
+.display-flex{
+    display: flex;
+}
+
+.text-gray{
+    color:#252432 ;
+}
+.text-light-gray{
+    color: #8987A1;
+}
+
+.navbar{
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 78px;
+    
+    
+}
+.nav-link{
+text-decoration: none;
+font-size:16px ;
+margin: 0 12px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar, .banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.bnimg{
+    width: 355px;
+    height: px;
+}
+.bn{
+    color: #E95A08;
+}
+.bn1{
+    font-size: px;
+}
+.bn2{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: px;
+}
+#our{color: #E95A08;}

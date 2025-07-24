@@ -5,7 +5,6 @@
 *{
     max-width: 1140px;
     margin: 0 auto;
-    
 }
 
 .inter-font {
@@ -64,17 +63,79 @@ margin: 0 12px;
     margin: 0 auto;
 }
 .bnimg{
-    width: 355px;
-    height: px;
+    width:570 px;
+    height: 355px;
 }
-.bn{
+.bn, .latesto{
     color: #E95A08;
 }
 .bn1{
-    font-size: px;
+   
+    margin-top: 143px;
 }
-.bn2{
+.bn1, .plants, .latestf{
+    font-size: 40px;}
+
+.bbn, .bn{
+    margin-top: 700px;
+}    
+.plants{margin-top:226px ;}
+.bn2, .plants2, .flowert2, .latest2{
     color: rgba(0, 0, 0, 0.5);
-    font-size: px;
+    font-size: 20px;
 }
 #our{color: #E95A08;}
+.usd{font-weight: bold;}
+.top{height: ;}
+.sample-flower{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.another{margin-top: 15px;}
+.button{background-color:#E95A08 ;
+width: 270px;
+height: 40px;
+color: white;
+border: none;}
+.flower-lover{
+    margin-top: 170px;
+}
+#flower-store{ margin-left: 36px;
+height:540px ;
+width: 597px;
+}
+#badge{
+    position: absolute;
+    height: 286px;
+    width: 286px; 
+    top:1970px ;
+    bottom: px;
+    right:520px ;
+    animation: forwards;
+    
+    
+    
+}
+.flowert{
+    margin-left: 47px;
+    font-size: 30px;
+}
+.flowert2{
+    margin-left: 660px;
+}
+.latest{
+    margin-top: 170px;
+}
+.card-image{
+    margin-top: 90px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: ;
+    
+}
+.card-image2{
+    border-radius: 20px;
+    gap: ;
+}
+#p{background-image: url(assets/);}

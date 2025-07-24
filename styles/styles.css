@@ -105,7 +105,7 @@ border: none;}
 .flower-lover{
     margin-top: 170px;
 }
-#flower-store{ margin-left: 36px;
+#flower-store{ 
 height:540px ;
 width: 597px;
 }
@@ -115,7 +115,7 @@ width: 597px;
     width: 286px; 
     top:1920px ;
     bottom: px;
-    right:600px ;
+    right:640px ;
     animation: forwards;
     
     

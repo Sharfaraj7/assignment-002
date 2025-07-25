@@ -117,7 +117,7 @@ width: 597px;
     width: 286px; 
     top:1920px ;
     bottom: px;
-    right:650px ;
+    right:570px ;
     animation: forwards;
     
     
@@ -160,8 +160,10 @@ width: 597px;
     grid-area: ana;
 }
 #ana{
+    /* position: relative;
+    top: -215px ; */
     position: relative;
-    top: -215px ;
+    top:;
 }
 .imgcard{
     
@@ -169,10 +171,10 @@ width: 597px;
     /* margin-left: 100px; */
     display:grid;
     gap: 20px;
-    grid-template-areas:
-    "bloom zabo"
-    "ana  zabo"
-    ;
+    /* grid-template-areas:
+    "bloom zabo zabo"
+    "ana  zabo zabo"
+    ; */
     
 }
 
@@ -269,9 +271,13 @@ footer{
     }
     .sample-flower{
          display: grid;
-         grid-template-columns: repeat(2,1fr);
+         grid-template-columns:repeat(2,1fr);
+
          gap: 30px;
          margin: none;
+         margin-left: -10px;
+         margin-right: 10px;
+        width: 100%;
          
         
          
@@ -280,39 +286,120 @@ footer{
     .fulltop{
         
         
+        
     }
     #flower-store{
-        width: ;
-        margin-left: 40px;
+        width:100%;
+        margin-left: ;
 
     }
+    #badge{
+        display: none;
+    }
     .flowert{
-        display: inline flex;}
+        margin-left: 10px;
+       margin-right:;
+       margin-top: 20px;
+
+    }
+    .special{
+        display: inline-flex;
+        
+       
+       ;
+    }
 
     .flowert2{
         /* display: flex;
         flex-direction: row; */
-    }    
-    .imgcard{
-        grid-template-areas: 
-       "bloom" 
-       "ana"
-       "zabo";
+        /* display: inline-flex;
+        flex-direction: column; */
+        margin-left: 0px;
+        font-size: ;
+        margin-top: 20px;
+        /* display: inline;
+         */
+        
+        
+        
+    }  
+    
 
+    .imgcard{
+        display: grid;
+        
+    
+       
     }
+    
+    
+
+    #bloom, #zabo, #ana{
+        margin-left: -0px;
+        margin-right: px;
+       background-image: 
+        
+    }
+    #zabo{
+        width: 367px;
+        height: 197px;
+        font-size: 20px;
+    }
+
+
     footer{
         flex-direction: column;
+        margin-left: 2px ;
+        width: ;
     }
+
+    .footer1, .footer2, .footer3, .footer4{
+        margin-left: 5px;
+
+    }
+    .footer2, .footer3{
+        margin-left: -30px;
+    }
+    
+    .footer1{
+        display: inline;
+    }
+
+
     .join{
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        margin-top: 40px;
+        
     }
     .bn1{
         font-size: 30px;
     }
     .sample-flower, .another {
+        width: ;
 
     }
+    .est{
+        display: inline-flex;
+        margin: 0 auto;
+    }
+    .email{
+        width: 90%;
+        margin-left:20px ;
+    }
+    #jc{
+        font-size: 25px;
+    }
+    #lc{
+        font-size:x-large;
+    }
+    .est{
+        margin-right: 20px;
+    }
+    .button2{
+        ;
+
+    }
+
 
 
 }

@@ -92,7 +92,9 @@ margin: 0 12px;
 .usd{font-weight: bold;}
 .top{height: ;}
 .sample-flower{
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: px;
     list-style: none;
 }
@@ -115,7 +117,7 @@ width: 597px;
     width: 286px; 
     top:1920px ;
     bottom: px;
-    right:570px ;
+    right:650px ;
     animation: forwards;
     
     
@@ -223,13 +225,94 @@ footer{
 
 
 }
-#twitter{
+/* #twitter{
     position: absolute;
     top: 4152px;
     right: 342px;
-}
+} */
  /* .footer4{
     display: flex;
     flex-direction: row;
     siz;
  } */
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        background: none;
+        display: flex;
+        margin: none;
+        flex-direction: row;
+
+    }
+    .cart{
+        margin-left: 5000px;
+    }
+    .home, .shop, .aboutus{
+        display: none;
+    }
+    .cart{
+        
+    }
+    .bnimg{
+        width: ;
+        /* margin-left: 250px; */
+        margin-top: ;
+        size-adjust:unset;
+        width: 100%;
+    }
+    .banner, .banner > div,{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .bn2{
+        font-size:20px ;
+    }
+    .sample-flower{
+         display: grid;
+         grid-template-columns: repeat(2,1fr);
+         gap: 30px;
+         margin: none;
+         
+        
+         
+        
+    }
+    .fulltop{
+        
+        
+    }
+    #flower-store{
+        width: ;
+        margin-left: 40px;
+
+    }
+    .flowert{
+        display: inline flex;}
+
+    .flowert2{
+        /* display: flex;
+        flex-direction: row; */
+    }    
+    .imgcard{
+        grid-template-areas: 
+       "bloom" 
+       "ana"
+       "zabo";
+
+    }
+    footer{
+        flex-direction: column;
+    }
+    .join{
+        max-width: 100%;
+        height: auto;
+    }
+    .bn1{
+        font-size: 30px;
+    }
+    .sample-flower, .another {
+
+    }
+
+
+}
